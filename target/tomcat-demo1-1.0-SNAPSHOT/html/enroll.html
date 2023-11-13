@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>注册页面(待改进)</title>
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/share.css">
+  <link rel="stylesheet" href="../css/enroll.css">
+  <script src="../js/index.js"></script>
+  <script src="../js/enroll.js"></script>
+</head>
+<body>
+  <div class="box">
+    <h1>学生注册页面</h1>
+    <form name="form1" action="/tomcat1/Enroll" method="post">
+      <div class="inputs">
+      <input type="text" name="username" value="用户名">
+      <p>X用户名不合法！！</p>
+      <input type="text" name="password" value="密码">
+      <input type="text" value="确认密码">
+      <p>X两次密码不一致！！</p>
+        <input type="text" name="vcode" placeholder="验证码">
+        <p>验证码不正确</p>
+        <img alt="验证码" src="/tomcat1/vcode">
+      <a href="../index.html">有账号，去登录?</a>
+      <input type="button" value="注册">
+    </div>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.box form .inputs p {
+  width: 150px;
+  height: 10px;
+  margin: 0 35px;
+  padding: 3px;
+  font-size: 10px;
+  color: red;
+  display: none;
+}
+.box form .inputs img {
+  width: 148px;
+  height: 30px;
+  margin: 6px 35px;
+  background-color: pink;
+}
